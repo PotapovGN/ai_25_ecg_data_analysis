@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+sqlalchemy
+pandas
+numpy
+wfdb
+scikit-learn
+python-multipart
+neurokit2
+PyWavelets
+antropy
+scipy
