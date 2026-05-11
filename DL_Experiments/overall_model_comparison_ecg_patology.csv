@@ -1,0 +1,6 @@
+approach_group,experiment,model,feature_set,val_f2,test_f2,test_recall,fit_time_sec,comment
+ML,XGBoost_base,XGBoost,base,0.8864,0.8825,0.9843,10.19,лучшее ML-решение из прошлого чекпойнта
+ML,CatBoost_engineered,CatBoost,engineered,0.8853,0.8789,0.9611,17.58,бустинг на деревьях
+ML,RandomForest_engineered,RandomForest,engineered,0.8859,0.8772,0.9806,69.58,"сильная ML-модель, но медленнее"
+DL,DL_02_DeepMLP_base,Deep MLP: 39 -> 96 -> 48 -> 24 -> 1 + BN + Dropout,base,0.8782,0.8745,0.9621,1.41,лучшее DL-решение из этого ноутбука
+baseline,LogReg_base,LogisticRegression,base,0.8758,0.8688,0.9732,5.66,baseline из ML-ноутбука
